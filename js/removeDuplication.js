@@ -7,7 +7,7 @@ function removeDuplicationLetters(str) {
 			dupLet+= str[i];
 		}
 	}
-	console.log(dupLet);
+	return dupLet;
 }
 removeDuplicationLetters('Hello I am Iron Man')
 

@@ -5,7 +5,7 @@ function toUppercase(str) {
 	for (let i = 0; i < str.length; i++) {
 		newStr += String.fromCharCode(str.charCodeAt(i) & 223);
 	}
-	console.log(newStr);
+	return newStr;
 }
 toUppercase(`abc`)
 
